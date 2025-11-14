@@ -1,0 +1,23 @@
+{
+  "name": "docker-api-project",
+  "version": "1.0.0",
+  "description": "Production-ready containerized REST API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "docker",
+    "api",
+    "express"
+  ],
+  "author": "Franck Kabasele",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
